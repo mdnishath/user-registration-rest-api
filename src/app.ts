@@ -1,4 +1,4 @@
-import express, { Request, Response } from 'express';
+import express from 'express';
 import cors from 'cors';
 import { UserRoutes } from './app/routes/user.route';
 
@@ -10,9 +10,5 @@ app.use(cors());
 
 //all routes
 app.use('/api/v1/users', UserRoutes);
-
-app.get('/', (req: Request, res: Response) => {
-  res.send('Hello World!');
-});
 
 export default app;
