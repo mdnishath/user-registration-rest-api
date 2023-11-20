@@ -1,3 +1,5 @@
+import { Model } from 'mongoose';
+
 export interface IUser {
   name: string;
   email: string;
@@ -5,3 +7,5 @@ export interface IUser {
   role?: 'user' | 'admin';
   isActive?: boolean;
 }
+
+export interface IUserModel extends Model<IUser> {}
