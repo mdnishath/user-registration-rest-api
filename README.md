@@ -31,7 +31,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/user-registration-api.git
+git clone https://github.com/mdnishath/user-registration-rest-api.git
 cd user-registration-api
 npm install
 ```
